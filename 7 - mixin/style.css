@@ -1,0 +1,26 @@
+.button--danger {
+  padding: 1rem 1.3rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  border: 0;
+  background-color: pink;
+  color: white;
+}
+
+.button--success {
+  padding: 1rem 1.3rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  border: 0;
+  background-color: green;
+  color: white;
+}
+
+body {
+  height: 100dvh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

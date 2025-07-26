@@ -1,0 +1,16 @@
+@mixin button($background, $color) {
+ padding: 1rem 1.3rem;
+ border-radius: 5px;
+ font-size: 2rem;
+ border: 0;
+ background-color: $background;
+ color: $color;
+}
+
+.button--danger {
+ @include button(pink, white);
+}
+
+.button--success {
+ @include button(green, white);
+}

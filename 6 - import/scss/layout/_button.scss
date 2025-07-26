@@ -1,0 +1,18 @@
+.button {
+ padding: 1rem 1.3rem;
+ border-radius: 5px;
+ font-size: 2rem;
+ border: 0;
+ background-color: grey;
+ color: white;
+}
+
+.button--danger {
+ @extend .button;
+ background-color: red;
+}
+
+.button--success {
+ @extend .button;
+ background-color: green;
+}

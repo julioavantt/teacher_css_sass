@@ -1,0 +1,21 @@
+body {
+  height: 100dvh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.button, .button--danger {
+  padding: 1rem 1.3rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  border: 0;
+  background-color: grey;
+  color: white;
+}
+
+.button--danger {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

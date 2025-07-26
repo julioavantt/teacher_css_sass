@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700;1,100..900&display=swap");
+
+// Variables
+$danger: #e91e63;
+
+body {
+ height: 100dvh;
+ background-color: black;
+ display: grid;
+ place-items: center;
+}
+
+h1 {
+ color: $danger;
+ font-family: "Dancing Script", cursive;
+ font-size: 4rem;
+}
